@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:layout_marginTop="150dp"
+        android:padding="45dp">
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_column="0"
+            app:layout_row="0"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_column="2"
+            app:layout_row="0"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_column="0"
+            app:layout_row="1"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_column="1"
+            app:layout_row="1"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_row="1"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_column="0"
+            app:layout_row="2"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_column="1"
+            app:layout_row="2"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            app:layout_column="2"
+            app:layout_row="2"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="55dp"
+        android:text="TIC TAC TOE"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/Play_again"
+        android:layout_width="181dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="580dp"
+        android:text="Play Again"
+        android:background="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/Turn"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Player O Turn"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="TouchTargetSizeCheck" />
+</RelativeLayout>
